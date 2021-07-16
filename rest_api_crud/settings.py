@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'rest_api_crud.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'REST_API_CRUD',
-        'USER':'postgres',
-        'PASSWORD':'220912',
-        'HOST':'localhost',
+        'NAME': 'REST API',
+        'USER': 'postgres',
+        'PASSWORD': '220912',
+        'HOST': 'localhost',
     }
 }
 
